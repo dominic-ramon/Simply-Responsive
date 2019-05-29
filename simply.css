@@ -1,0 +1,52 @@
+*{
+    margin:5px auto;
+}
+.top{
+    background-color: gray;
+    border: solid black 1px;
+
+}
+.middle{
+    background-color: gainsboro;
+    border: solid black 1px;
+
+}
+.bottom{
+    background-color: lightyellow;
+    border: solid black 1px;
+
+}
+ @media only screen and (max-width: 480px){
+     .phone{
+         color:red
+     }
+     .tablet{
+         display: none;
+     }
+     .desktop{
+         display: none;
+     }
+ }
+ @media only screen and (min-width: 481px){
+    .phone{
+        display: none;
+    }
+    .tablet{
+        color:green;
+    }
+    .desktop{
+        display: none;
+    }
+ }
+ @media only screen and (min-width: 1024px){
+    .phone{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+    .desktop{
+        color:blue;
+        display: inline-block;
+    }
+ }
